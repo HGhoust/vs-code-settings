@@ -1,0 +1,289 @@
+{
+	// тема
+	// "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+	// левая панель активности
+	"workbench.activityBar.location": "hidden",
+	// верхняя панель с вкладками
+	"workbench.editor.showTabs": "single",
+	// нижняя панель статуса
+	"workbench.statusBar.visible": false,
+	// не показвыть ничего при первом запуске
+	"workbench.startupEditor": "none",
+	// убираем подсказки клавишь на начальном экране
+	"workbench.tips.enabled": false,
+	// убираем мини карту
+	"editor.minimap.enabled": false,
+	// скрываем "хлебные крошки с мини-бара"
+	"breadcrumbs.enabled": false,
+	// отображение сайдбара с правой стороны
+	"workbench.sideBar.location": "right",
+	// установка темы иконок
+	"workbench.iconTheme": "vs-minimal",
+	// скрытие стрелок возле папок в сайдбаре
+	"material-icon-theme.hidesExplorerArrows": true,
+	// отключение фиксации папок при покрутке
+	"workbench.tree.enableStickyScroll": false,
+	// скрытие направляющих линии в сайдбаре
+	"workbench.tree.renderIndentGuides": "none",
+	// уровоень вложенности структуры файолв в сайдбаре
+	"workbench.tree.indent": 8,
+	// отключение группировки пустых папок в сайдбаре
+	"explorer.compactFolders": false,
+	// отключение подтверждения перемещений файлов
+	"explorer.confirmDragAndDrop": false,
+	// отключение подтверждения при удалении файлов
+	"explorer.confirmDelete": false,
+	// отключение точек в сайдбаре при ошибке
+	"explorer.decorations.badges": false,
+	// отключение подсветки файлов в сайдбаре при измении без коммита
+	// "git.decorations.enabled": false,
+	// увеличение элементов интерфейса
+	"window.zoomLevel": 2,
+	// скрытие верхней панели с вкладками
+	"window.customTitleBarVisibility": "never",
+	"window.titleBarStyle": "native",
+	"custom-ui-style.electron": {
+		"titleBarStyle": "hiddenInset",
+		"trafficLightPosition": {
+			"x": 20,
+			"y": 16
+		}
+	},
+	"custom-ui-style.stylesheet": {
+		// убирает тени уведомлений справа внизу
+		".notification-toast": "box-shadow: none !important",
+		// убирает тени из командной панели
+		".quick-input-widget.show-file-icons": "box-shadow: none !important",
+		// сдвигает командную панель вниз
+		".quick-input-widget": "top: 25vh !important",
+		// скрывает скролл бар
+		".quick-input-list .scrollbar": "display: none",
+		// убирает пустое постранство справой стороны от поля ввода в командном панеле
+		".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+		// окно поиска убираем тень и округляем
+		".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+		// переопределение цвета фона заголовка поисковой панели
+		// ".quick-input-titlebar": "background: #100B15 !important",
+		// скрывает рамку снизу у заголовка файла
+		".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+		// удаление тени из блока в сайдбаре
+		".monaco-scrollable-element > .shadow.top": "display: none",
+		// убирает левый отступ в сайдбаре
+		".sidebar .title-label": "padding: 0 !important",
+		// скрывает левую границу
+		".sidebar": "border: none !important",
+		// убирает обводку с сайдбара
+		".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+		// убирает рамку из активного элемента в сайдбаре
+		".monaco-list-row.focused": "outline: none !important",
+		// убирает верхнюю тень у заголовка файла при покрутке
+		".monaco-editor .scroll-decoration": "display: none",
+		// скрывает справый список
+		".title-actions": "display: none !important",
+		// заголовок по центру
+		".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+		// убирает отступ у чисел рядом с файлом в которых присутствуют ошибки
+		".title .monaco-icon-label:after": "margin-right: 0",
+		// для отступа слева у верхней надписи с названием файла и с его путем
+		".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+		// отступ слева для заголовка файла
+		".title .monaco-icon-label.file-icon": "margin: 0 60px"
+		// меняем цвет курсора или добавляем градиент
+		// ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+	},
+	// установка шрифта
+	// "custom-ui-style.font.sansSerif": "Dank Mono",
+	// клавиша для мультикурсора
+	"editor.multiCursorModifier": "ctrlCmd",
+	// мерцание курсора
+	"editor.cursorBlinking": "blink",
+	// тип курсора
+	"editor.cursorStyle": "line",
+	//
+	"workbench.colorCustomizations": {
+		// цвет текста под курсором
+		"editorCursor.background": "#000000",
+		// скрываем фон индекаторов
+		"editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+		"editorOverviewRuler.selectionHighlightForeground": "#0000",
+		"editorOverviewRuler.rangeHighlightForeground": "#0000",
+		"editorOverviewRuler.wordHighlightForeground": "#0000",
+		"editorOverviewRuler.bracketMatchForeground": "#0000",
+		"editorOverviewRuler.findMatchForeground": "#0000",
+		"editorOverviewRuler.modifiedForeground": "#0000",
+		"editorOverviewRuler.deletedForeground": "#0000",
+		"editorOverviewRuler.warningForeground": "#0000",
+		"editorOverviewRuler.addedForeground": "#0000",
+		"editorOverviewRuler.errorForeground": "#0000",
+		"editorOverviewRuler.infoForeground": "#0000",
+		"editorOverviewRuler.border": "#0000",
+		// настройки при теме
+		"[Aura Dracula Spirit (Soft)]": {
+			// цвет текста активного пункта в меню
+			"editorSuggestWidget.selectedBackground": "#3A334B",
+			// цвет сайдбара
+			"sideBar.background": "#191521"
+		}
+	},
+	// шрифт для редактора
+	// "editor.fontFamily": "Dank Mono",
+	// размер шрифта
+	"editor.fontSize": 14,
+	// объеденение след символов => <= и тд
+	// "editor.fontLigatures": true,
+	// высота строк
+	"editor.lineHeight": 2.5,
+	// шрифт комментариев
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "comment",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			}
+		]
+	},
+	// отключение фиксации кода при покрутке
+	"editor.stickyScroll.enabled": false,
+	// отключение индекатора цвета в коде
+	// "editor.colorDecorators": false,
+	// отключение некоторых кнопок которые появляются в коде к примеру Debug
+	"editor.codeLens": false,
+	// отключает подчеркивание у ссылок в коде
+	"editor.links": false,
+	// убирает подсветка парных скобок
+	// "editor.matchBrackets": "never",
+	// отключение подсказок
+	// "editor.parameterHints.enabled": false,
+	// отключает иконку лампочки
+	"editor.lightbulb.enabled": "off",
+	// отключение подсказок при наводке к элементу в коде
+	"editor.hover.enabled": false,
+	// автоматическое удаление пробелов в конце строки при сохронении
+	"files.trimTrailingWhitespace": true,
+	// добавление пустой строки в конце файла
+	"files.insertFinalNewline": true,
+	// убирает выделение цвета при изменении кода для git
+	// "scm.diffDecorations": "none",
+	// настройка отображения номеров строк
+	"editor.lineNumbers": "on",
+	// размер табуляции
+	"editor.tabSize": 2,
+	// отключение автоматического распознавания отступов
+	"editor.detectIndentation": false,
+	// отключение символов для сворачивания и разворачивания блока кода
+	"editor.showFoldingControls": "never",
+	// отключение направляющих линий характеризующих отступы в коде
+	"editor.guides.indentation": false,
+	// убирает отображение точек в местах пробела
+	"editor.renderWhitespace": "none",
+	// отключение подсветки текущей строки
+	"editor.renderLineHighlight": "none",
+	// отключение подсветки при наведении одинаковых слов
+	"editor.occurrencesHighlight": "off",
+	// отключение подсветки выделенных одинаковых слов
+	"editor.selectionHighlight": false,
+	// скрывает скроллбар
+	"editor.scrollbar.horizontal": "hidden",
+	// скрывает скроллбар
+	"editor.scrollbar.vertical": "hidden",
+	// отключение бордера скролл баттона
+	"editor.overviewRulerBorder": false,
+	// скрыть индикатор положения курсора справа
+	"editor.hideCursorInOverviewRuler": true,
+	// отключение автоматического появления вкладки с подсказкой кода (дополнения / подсказки)
+	// "editor.quickSuggestions": {
+	//   "other": "off"
+	// },
+	// отключение при вводе точки автоматического появления вкладки с подсказкой кода (дополнения / подсказки)
+	// "editor.suggestOnTriggerCharacters": false,
+	// vs code дописывает слова при нажатии tab
+	// "editor.tabCompletion": "on",
+	// перемещение вверх снипетов в вкладки с подсказкой кода (дополнения / подсказки)
+	"editor.snippetSuggestions": "top",
+	// активация автодополнения эммит при нажатии tab
+	"emmet.triggerExpansionOnTab": true,
+	// автоматическое сохранение файла
+	"files.autoSave": "off",
+	// отключение автоматической обновлении (включать при авто.сохр файлов через время (autoDelay))
+	// "update.mode": "none",
+	// отключение рекомендаций расширений
+	"extensions.ignoreRecommendations": true,
+	"material-icon-theme.activeIconPack": "",
+	"workbench.colorTheme": "Monochrome Light",
+
+	// Настройки переноса слов
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+
+	// Прокрутка за пределы последней строки
+	"editor.scrollBeyondLastLine": true,
+
+	// Связанные редактирования тегов
+	"editor.linkedEditing": true,
+
+	// Автоматическое закрытие тегов
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+
+	// Подсветка неоднозначных символов
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+
+	// Быстрые подсказки
+	"html.completion.attributeDefaultValue": "singlequotes",
+
+	// Настройки терминала
+	"terminal.integrated.fontFamily": "PragmataPro Liga",
+	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.cursorStyle": "line",
+
+	// Настройки форматирования
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	// "[prisma]": {
+	// 	"editor.defaultFormatter": "Prisma.prisma"
+	// },
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+
+	// Настройки для JS и TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+	// Настройки проверки орфографии
+	"cSpell.language": "en,ru",
+	"cSpell.enabled": true,
+	"cSpell.enabledFileTypes": [
+		"blade",
+		"jsx",
+		"tsx",
+		"ts",
+		"js",
+		"scss",
+		"sass",
+		"vue"
+	],
+
+	"files.exclude": {
+		"**/.expo": true,
+		"**/.expo-shared": true,
+		"**/.idea": true,
+		"**/.nuxt": true
+	}
+}
